@@ -25,7 +25,7 @@ public class HomeController {
 	}	
 	
 	@RequestMapping("/result")
-	public String info() {
+	public String results() {
 		return "jsp/results.jsp";
 	}
 	
